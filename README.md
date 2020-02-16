@@ -60,7 +60,50 @@ Então, agora chegou a hora de te ensinar os comandos que fazem a mágica aconte
 - Commitados? What is this?
 - Um momento, mais pra frente no tutorial isso vai fazer mais sentido.
 
-É possivel adicionar os arquivos para commit com o 
+É possivel adicionar os arquivos para commit com os seguintes comandos:
+
+```bash
+git add .
+git add -A
+```
+
+No fundo, no fundo esses dois comandos servem para a mesma coisa. Pode utilizar tanto um quanto o outro, mas se atente a um detalhe, esses comandos vão adiconar **TODOS** os arquivos para serem commitados. Para adiconar um arquivo específico, utilize:
+
+```bash
+git add <filename>
+```
+
+##### Git status
+
+Esse é um comando simples, serve somente para verificar o status de quais arquivos estão para ser commitados e etc..
+
+```bash
+git status
+```
+
+##### Git commit (finalmente 😅)
+
+Esse é um comando importante, não que os outros não sejam, mas precisa se atentar para esse. Ele tem como objetivo realizar basicamente salva as alterações que você realizou. No fluxo, seria utilizar o `git add` para adicionar os arquivos, e depois o `git commit` para salvar essas alterações, e agora o mais imporatante: **git commit** só salvar LOCALMENTE (L O C A L M E N T E) suas alterações. Tudo bem? E você pode adicionar com o seguinte comando:
+
+```bash
+git commit -m "may the fourth be with you"
+```
+
+Ah, e antes que eu esqueça de mencionar, esse **-m** é para específicar uma mensagem e sim, a mensagem é obrigatória porque é de suma importância que você explique o que fez nessas alterações que você salvando.
+
+##### Git push
+
+Esse é um comando muito importante também, e ele é feito logo após utilizar o `git commit` e ele serve para salvar REMOTAMENTE (R E M O T A M E N T E) suas alterações, ou seja, até o `git commit` você apenas tinha salvo para você, mas agora com o `git push`, você irá disponibilizar suas alterações no repositório remotamente para todos seus amiguinhos enxergarem.
+
+```bash
+git push origin master
+```
+
+Parametros:
+**origin**: Origin é aquela parada que falamos láaaaa o começo, lembra? Ele específica o endereço do repositório.
+**master**: Não tinhamos falado disso antes, mas **master** é o nome da branch que você está enviando as alterações.
+
+
 
 
 
