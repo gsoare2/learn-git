@@ -54,11 +54,11 @@ Então, agora chegou a hora de te ensinar os comandos que fazem a mágica aconte
 
 ##### Git add
 
-- Esse comando tem o objetivo de adicionar arquivos.
-- Ok, mas adicionar pra que?
-- Ops, me perdoe. Ele serve para adicionar arquivos para serem commitados.
-- Commitados? What is this?
-- Um momento, mais pra frente no tutorial isso vai fazer mais sentido.
+— Esse comando tem o objetivo de adicionar arquivos.<br/>
+— Ok, mas adicionar pra que?<br/>
+— Ops, me perdoe. Ele serve para adicionar arquivos para serem commitados.<br/>
+— Commitados? What is this?<br/>
+— Um momento, mais pra frente no tutorial isso vai fazer mais sentido.<br/>
 
 É possivel adicionar os arquivos para commit com os seguintes comandos:
 
